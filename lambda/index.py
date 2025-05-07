@@ -97,3 +97,4 @@ if __name__ == "__main__":
     public_url = ngrok.connect(port)
     print(f"FastAPI is now live at {public_url}")  # URLを表示
     uvicorn.run(app, host="0.0.0.0", port=port)
+
